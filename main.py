@@ -3,7 +3,7 @@ def main():
     text = get_book_text(book_path)
     num_words = get_num_words(text)
     num_letters = get_num_letters(text)
-    print(f"words: {num_words} ")
+    print(f"Words: {num_words} ")
     print(num_letters)
 
 def get_num_words(text):
